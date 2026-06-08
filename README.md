@@ -2,7 +2,7 @@
 
 A premium, dark-themed personal finance and budget tracking dashboard built with a modern full-stack architecture. This application allows users to securely manage their income and expenses with real-time financial tracking and data visualizations.
 
-🌐 **Live Demo:** [Paste your Vercel URL here]
+🌐 **Live Demo:** (https://expense-tracker-tau-eight-11.vercel.app/)
 
 ---
 
