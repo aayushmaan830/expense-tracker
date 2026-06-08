@@ -1,40 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📊 Expense Tracker 
 
-## Getting Started
+A premium, dark-themed personal finance and budget tracking dashboard built with a modern full-stack architecture. This application allows users to securely manage their income and expenses with real-time financial tracking and data visualizations.
 
-First, run the development server:
+🌐 **Live Demo:** [Paste your Vercel URL here]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* **Secure Authentication:** Integrated user login and registration system.
+* **Data Isolation (RLS):** Built with strict database security policies ensuring users can *only* read, write, or change their own private financial records.
+* **Credit & Debit Tracking:** Complete support for tracking both inbound income pipelines and outbound spending categories.
+* **Visual Ratios:** Animated, real-time charts providing an instant visual breakdown of your Credit vs. Debit ratios.
+* **Custom Categories:** Ability to create, view, and remove custom transaction tags to organize monthly spending.
+* **Interactive Table Controls:** Search, sort, and filter features built directly into the transaction ledger for rapid data auditing.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 🛠️ The Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+* **Frontend Framework:** Next.js (React)
+* **Styling Engine:** Tailwind CSS (Fintech Dark Theme)
+* **Database & Auth:** Supabase (Cloud-hosted PostgreSQL)
+* **Data Visualization:** Recharts
